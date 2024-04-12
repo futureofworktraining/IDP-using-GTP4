@@ -1,0 +1,6 @@
+﻿There are multiple invoices in the qurery. Extract details from these invoices and provide them in the Array JSON format. Provide only requested information. Output the one object per each attached file. Do not add any remards or mark downs. Only plain JSON with the follwing information:
+- InvoiceNo (only number)
+- InvoiceDate (the date is provided in the format: dd-MM-yyyy always convert the invoice date to the following format: dd/MM/yyyy)
+- CompanyName (Name of the company by whom this invoice was rendered)
+- TotalDue (do not add currency sign or currency short name, ex: 123 or 123.5. Round it to the first digit after the coma. If has .0 round it to integer)
+Check dates of they match the ones presented on the image. Output the one object per each attached file. 
